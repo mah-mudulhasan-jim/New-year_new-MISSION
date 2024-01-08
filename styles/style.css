@@ -1,34 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;900&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: merriweather, Inter;
     background-repeat: no-repeat;
 }
-body header{
+
+span {
+    color: red;
+}
+
+body header {
     margin-bottom: 120px;
 }
 
-.container{
+.container {
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
     margin-bottom: 120px;
 }
-.banner{
+
+.banner {
     margin-top: 50px;
     /* background: linear-gradient(180deg, #dbdadd 0%, rgba(159, 126, 226, 0) 100%),url(/resources/Banner\ Image.png); */
     /* background-image: url(/resources/Banner\ Image.png); */
 
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0,0,0,0)), url(/resources/Banner\ Image.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(/resources/Banner\ Image.png);
 
     border-radius: 16px;
 }
-.banner  .banner_text{
+
+.banner .banner_text {
     text-align: center;
     padding: 177px 344px;
 }
-.banner_text h3{
+
+.banner_text h3 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -36,15 +45,17 @@ body header{
     font-weight: 400;
     margin-bottom: 16px;
 }
-.banner_text h1{
+
+.banner_text h1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
+
 /* discount section styles */
-.discount .text h1{
+.discount .text h1 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -52,7 +63,8 @@ body header{
     font-weight: 700;
     margin-bottom: 48px;
 }
-.discount .text p{
+
+.discount .text p {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -60,7 +72,8 @@ body header{
     font-weight: 500;
     margin-bottom: 16px;
 }
-.discount .text h3{
+
+.discount .text h3 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -68,35 +81,38 @@ body header{
     font-weight: 700;
     margin-bottom: 48px;
 }
-.discount .image{
+
+.discount .image {
     width: 802.9px;
     height: 500px;
     margin: 0 auto;
 }
+
 /* midnight section  styles */
-.midnight{
+.midnight {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
 }
-.midnight .content_img{
+
+.midnight .content_img {
     width: 80%;
     max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     padding: 126px 138px 68px 126px;
-
 }
 
-.midnight .content_img .image{
+.midnight .content_img .image {
     /* padding: 0.008px 0px 0px 0px; */
 
     /* background: linear-gradient(90deg, rgba(7, 2, 17, 0.00), #070211 0%, 100%); */
     margin-top: -60px;
 }
-.midnight h1{
+
+.midnight h1 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -106,16 +122,19 @@ body header{
     width: 642px;
     margin-bottom: 24px;
 }
-.midnight p{
+
+.midnight p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
     width: 697px;
     margin-bottom: 34px;
 }
-.primary_btn{
+
+.primary_btn {
     color: #FFF;
     margin-left: 32px;
     border: none;
@@ -129,17 +148,20 @@ body header{
     cursor: pointer;
     transition: 1s;
 }
-.content button:hover{
+
+.content button:hover {
     background: #F00;
     border-radius: 10px;
 }
+
 /* schedule styles */
-.schedule{
+.schedule {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     /* border: 5px solid; */
     border-radius: 16px;
 }
-.time_holder{
+
+.time_holder {
     padding: 100px 385px;
     width: 41.6%;
     max-width: 550px;
@@ -149,43 +171,51 @@ body header{
     font-weight: 600;
 }
 
-.time_holder .primary_btn{
+.time_holder .primary_btn {
     background: red;
     border-radius: 10px;
 }
-.time_holder .primary_btn:hover{
+
+.time_holder .primary_btn:hover {
     background: black;
 }
-.time_holder p{
+
+.time_holder p {
     margin-bottom: 35px;
 }
-.time_holder p{
+
+.time_holder p {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    line-height: 56px; 175%
+    line-height: 56px;
 }
-.time_holder span{
-    color: red;
+
+.time_holder span {
+    /* color: red; */
     font-family: Inter;
 }
+
 /* circled pic section styles  */
-.info{
+.info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.info_text{
+
+.info_text {
     width: 30%;
     max-width: 393px;
 }
-.info_date{
+
+.info_date {
     width: 21%;
     max-width: 276px;
     margin-top: 140px;
 }
-.info_text h4{
+
+.info_text h4 {
     color: #F00;
     /* text-align: center; */
     font-family: Inter;
@@ -195,7 +225,8 @@ body header{
     line-height: normal;
     margin-bottom: 16px;
 }
-.info_text h2{
+
+.info_text h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -205,31 +236,37 @@ body header{
     text-transform: capitalize;
     margin-bottom: 22px;
 }
-.info_text p{
+
+.info_text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
 }
-.info_pic img{
+
+.info_pic img {
     padding: 49px;
-    background-color:#fff;
-    border: 15px solid #F00;    height:100px;
-    border-radius:50%;
+    background-color: #fff;
+    border: 15px solid #F00;
+    height: 100px;
+    border-radius: 50%;
     width: 70%;
     max-width: 463px;
     height: auto;
 }
-.info_date h2{
+
+.info_date h2 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.info_date p{
+
+.info_date p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -237,8 +274,50 @@ body header{
     line-height: 32px;
     margin-bottom: 32px;
 }
-.info_date img{
+
+.info_date img {
     width: 140px;
     height: 140px;
 }
 
+/* portfolio section styles */
+.portfolio{
+    background-size: cover;
+}
+.port_text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.port_text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    /* text-transform: capitalize; */
+    margin-bottom: 22px;
+}
+
+.port_text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 68%;
+    max-width: 896px;
+    margin-bottom: 48px;
+}
+.port_img1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.port_img2{
+    display: flex;
+    justify-content: space-between;
+}
