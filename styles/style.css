@@ -460,6 +460,13 @@ footer {
 .media .icon {
     padding: 48px 0;
 }
+.media .icon img{
+    cursor: pointer;
+}
+.media .icon img:hover{
+    border: 2px #FFF solid;
+    border-radius: 50%;
+}
 
 .copyright {
     display: flex;
