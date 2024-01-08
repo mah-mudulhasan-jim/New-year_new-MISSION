@@ -318,11 +318,21 @@ body header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+    cursor:auto;
+}
+.port_img1 img:hover{
+    border:5px rgb(82, 7, 112) solid;
+    border-radius: 35px;
 }
 
 .port_img2 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.port_img2 img:hover{
+    border:5px rgb(82, 7, 112) solid;
+    border-radius: 35px;
 }
 
 /* subscribe section styles */
@@ -333,9 +343,11 @@ body header {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
-.sub_content img{
-margin-bottom: 40px;
+
+.sub_content img {
+    margin-bottom: 40px;
 }
+
 .sub_content {
     /* background-size: cover;
 
@@ -383,10 +395,94 @@ margin-bottom: 40px;
     margin-left: -6px;
     height: 72px;
 }
-.subscribe .primary_btn:hover{
+
+.subscribe .primary_btn:hover {
     background: rgb(53, 50, 50);
 }
-.subscribe .form{
+
+.subscribe .form {
     /* display: inline; */
     padding-bottom: 80px;
+}
+
+/* footer section styles */
+footer {
+    background-color: black;
+}
+
+.foot_info {
+    padding: 120px 140px;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact_info .address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact_info .contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.contact_info .contact div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.media hr {
+    /* width: 82.5%; */
+    width: 100%;
+    max-width: 1600px;
+    color: white;
+}
+
+.media .icon {
+    padding: 48px 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.copyright p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.copyright .primary_btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.copyright .primary_btn:hover {
+    background-color: white;
+    border-radius: 40px;
+    color: black;
 }
