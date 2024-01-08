@@ -75,13 +75,26 @@ body header{
 }
 /* midnight section  styles */
 .midnight{
-    /* background-image: url(/resources/Vectorrr.png); */
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 16px;
 }
-.midnight .content{
-    padding: 126px 497px 140px 126px;
+.midnight .content_img{
+    width: 80%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 126px 138px 68px 126px;
+
+}
+
+.midnight .content_img .image{
+    /* padding: 0.008px 0px 0px 0px; */
+
+    /* background: linear-gradient(90deg, rgba(7, 2, 17, 0.00), #070211 0%, 100%); */
+    margin-top: -60px;
 }
 .midnight h1{
     color: #FFF;
@@ -156,5 +169,76 @@ body header{
 .time_holder span{
     color: red;
     font-family: Inter;
+}
+/* circled pic section styles  */
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_text{
+    width: 30%;
+    max-width: 393px;
+}
+.info_date{
+    width: 21%;
+    max-width: 276px;
+    margin-top: 140px;
+}
+.info_text h4{
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.info_text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.info_text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.info_pic img{
+    padding: 49px;
+    background-color:#fff;
+    border: 15px solid #F00;    height:100px;
+    border-radius:50%;
+    width: 70%;
+    max-width: 463px;
+    height: auto;
+}
+.info_date h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.info_date p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.info_date img{
+    width: 140px;
+    height: 140px;
 }
 
