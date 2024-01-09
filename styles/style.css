@@ -24,11 +24,7 @@ body header {
 
 .banner {
     margin-top: 50px;
-    /* background: linear-gradient(180deg, #dbdadd 0%, rgba(159, 126, 226, 0) 100%),url(/resources/Banner\ Image.png); */
-    /* background-image: url(/resources/Banner\ Image.png); */
-
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../resources/Banner\ Image.png);
-
     border-radius: 16px;
 }
 
@@ -106,9 +102,6 @@ body header {
 }
 
 .midnight .content_img .image {
-    /* padding: 0.008px 0px 0px 0px; */
-
-    /* background: linear-gradient(90deg, rgba(7, 2, 17, 0.00), #070211 0%, 100%); */
     margin-top: -60px;
 }
 
@@ -117,7 +110,6 @@ body header {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    /* line-height: 88px; 137.5% */
     letter-spacing: 7.04px;
     width: 642px;
     margin-bottom: 24px;
@@ -129,7 +121,6 @@ body header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
     width: 697px;
     margin-bottom: 34px;
 }
@@ -157,7 +148,6 @@ body header {
 /* schedule styles */
 .schedule {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    /* border: 5px solid; */
     border-radius: 16px;
 }
 
@@ -193,7 +183,6 @@ body header {
 }
 
 .time_holder span {
-    /* color: red; */
     font-family: Inter;
 }
 
@@ -217,7 +206,6 @@ body header {
 
 .info_text h4 {
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -244,7 +232,6 @@ body header {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
 .info_pic img {
@@ -278,6 +265,59 @@ body header {
 .info_date img {
     width: 140px;
     height: 140px;
+}
+
+/* holiday section styles */
+
+.holiday_content .text {
+    text-align: center;
+}
+
+.holiday_content .text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday_content .text h1 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday .text p {
+    padding: 0 126px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.holiday_content .photo {
+    height: 662px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../resources/Rectangle\ 1.png),url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position:top right, bottom;
+}
+
+
+
+.holiday_content .photo .photo2 img{
+    margin-bottom: 50%;
+    margin-right: 335px ;
+    margin-top: 100px;
+    
 }
 
 /* portfolio section styles */
@@ -317,10 +357,11 @@ body header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
-    cursor:auto;
+    cursor: auto;
 }
-.port_img1 img:hover{
-    border:5px rgb(82, 7, 112) solid;
+
+.port_img1 img:hover {
+    border: 5px rgb(82, 7, 112) solid;
     border-radius: 35px;
 }
 
@@ -329,8 +370,9 @@ body header {
     justify-content: space-between;
     align-items: center;
 }
-.port_img2 img:hover{
-    border:5px rgb(82, 7, 112) solid;
+
+.port_img2 img:hover {
+    border: 5px rgb(82, 7, 112) solid;
     border-radius: 35px;
 }
 
@@ -348,12 +390,6 @@ body header {
 }
 
 .sub_content {
-    /* background-size: cover;
-
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05); */
-    /* width: 68%;
-    max-width: 896px; */
     padding: 80px 212px 48px 212px;
 }
 
@@ -400,7 +436,6 @@ body header {
 }
 
 .subscribe .form {
-    /* display: inline; */
     padding-bottom: 80px;
 }
 
@@ -435,7 +470,6 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    /* 166.667% */
 }
 
 .contact_info .contact div {
@@ -445,24 +479,22 @@ footer {
 }
 
 .media {
-    /* margin: 0 auto; */
     text-align: center;
 }
 
 .media hr {
-    /* width: 82.5%; */
-    width: 100%;
-    max-width: 1600px;
     color: white;
 }
 
 .media .icon {
     padding: 48px 0;
 }
-.media .icon img{
+
+.media .icon img {
     cursor: pointer;
 }
-.media .icon img:hover{
+
+.media .icon img:hover {
     border: 2px #FFF solid;
     border-radius: 50%;
 }
@@ -487,6 +519,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
 }
+
 .copyright .primary_btn:hover {
     background-color: white;
     border-radius: 40px;
